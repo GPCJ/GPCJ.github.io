@@ -1,0 +1,68 @@
+.bg-grey {
+  background: #f7f9fc;
+}
+
+.bg-white {
+  background: white;
+}
+
+.white-box {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0.5px 0.5px 2px 1px #eee;
+}
+
+.rounded-10 {
+  border-radius: 10px;
+}
+
+.font-sky {
+  color: #6fbaf8;
+}
+
+.btn-sky {
+  background: #6fbaf8;
+}
+
+.inline {
+  display: inline;
+}
+
+.block {
+  display: block;
+}
+
+div > .line {
+  border-radius: 25px;
+  height: 4px;
+}
+
+.vl {
+  color: rgb(33, 37, 41);
+  height: 200px;
+  border-style: solid;
+  border-width: 0px 2px 0px 0px;
+}
+
+progress::-webkit-progress-value {
+  background-color: rgb(38, 255, 67);
+  border-radius: 20px;
+  block-size: 100%;
+  inline-size: 50%;
+  box-sizing: border-box;
+  -webkit-user-modify: read-only !important;
+}
+
+progress {
+  appearance: none;
+  box-sizing: border-box;
+  display: inline-block;
+  block-size: 1em;
+  inline-size: 10em;
+  vertical-align: -0.2em;
+}
+
+progress::-webkit-progress-bar {
+  border-radius: 20px;
+}
